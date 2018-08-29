@@ -198,7 +198,10 @@ footer {
 
 .services .main-content .top-content{
 	display: flex;
-	margin-top: 50px;
+  margin-top: 50px;
+}
+.services .main-content .top-content .text-content{
+  border: 1px solid black;
 }
 .services .main-content .middle-content{
 	display: flex;
@@ -208,4 +211,9 @@ footer {
 .services .main-content .bottom-content{
 	display: flex;
 	margin-top: 50px;
+}
+
+.services .facts{
+  display: flex;
+  margin-top: 50px;
 }
